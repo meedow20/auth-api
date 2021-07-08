@@ -1,0 +1,24 @@
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.usernameContainer {
+    font-size: 20pt;
+    margin-bottom: 1em;
+}
+
+.btnLogout {
+    border: 0.01em solid grey;
+    border-radius: 0.3em;
+    font-size: 14pt;
+    padding: 0.3em;
+}
+
+.btnLogout:hover {
+    background-color: rgb(199, 199, 199);
+    transition: 0.5s;
+}

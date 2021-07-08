@@ -1,0 +1,41 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.emailInput {
+    outline: none;
+    border: 0.1em solid grey;
+    border-radius: 0.5em;
+    font-size: 12pt;
+    padding: 0.4em;
+}
+
+.passwordInput {
+    outline: none;
+    border: 0.1em solid grey;
+    border-radius: 0.5em;
+    font-size: 12pt;
+    padding: 0.4em;
+}
+
+.inputContainer {
+    margin-bottom: 1em;
+}
+
+.btnSubmit {
+    width: 100%;
+    border: 0.1em solid grey;
+    border-radius: 0.5em;
+    font-size: 14pt;
+    padding: 0.1em;
+    text-align: center;
+}
+
+.btnSubmit:hover {
+    background-color: rgb(199, 199, 199);
+    transition: 0.5s;
+}
